@@ -23,6 +23,31 @@ npm run build
 npm run preview
 ```
 
+## Déploiement sur Vercel
+
+1. Créez un compte sur [Vercel](https://vercel.com)
+2. Installez Vercel CLI :
+```bash
+npm install -g vercel
+```
+
+3. Connectez-vous à Vercel :
+```bash
+vercel login
+```
+
+4. Déployez l'application :
+```bash
+vercel
+```
+
+5. Pour les déploiements suivants :
+```bash
+vercel --prod
+```
+
+L'application sera accessible à l'URL fournie par Vercel.
+
 ## Technologies
 - React + Vite
 - HMR (Hot Module Replacement)
