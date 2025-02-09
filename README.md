@@ -27,3 +27,17 @@ npm run preview
 - React + Vite
 - HMR (Hot Module Replacement)
 - ESLint
+
+## Contribution
+
+Le projet utilise la branche `main` comme branche principale. Pour contribuer :
+
+1. Créez une branche à partir de `main`
+2. Faites vos modifications
+3. Soumettez une pull request
+
+### Branches
+- `main` : branche principale
+- `develop` : branche de développement
+- `feature/*` : nouvelles fonctionnalités
+- `bugfix/*` : corrections de bugs
